@@ -1,6 +1,6 @@
 const io = require('socket.io')(process.env.PORT||8900, {
     cors: {
-        origin: "https://coinxchange.herokuapp.com/"
+        origin: "*"
     }
 });
 let users = []
